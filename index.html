@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Autenticação</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <h1>Formulário de Autenticação</h1>
+        <label>Digite Seu Nome</label>
+        <input type="text" name="nome" id="nome" />
+        <p id="nomeError"></p>
+        <label>Digite Seu Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome" />
+        <p id="sobrenomeError"></p>
+        <label>O Dia em que Nasceu</label>
+        <input type="date" name="data" id="data" />
+        <p id="dataError"></p>
+        <label>Estado Civil</label>
+        <br />
+        <input value="Casado" type="radio" name="civil" checked />Casado<input
+          value="Solteiro"
+          type="radio"
+          name="civil"
+        />Solteiro
+        <p id="estadoCivil"></p>
+        <input type="button" value="validar" id="button" />
+      </form>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
